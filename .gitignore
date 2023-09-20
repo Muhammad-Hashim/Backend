@@ -1,0 +1,14 @@
+# Ignore build artifacts
+
+/node_modules
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore sensitive config files
+config.js
+.env
+
+# Ignore macOS system files
+.DS_Store
