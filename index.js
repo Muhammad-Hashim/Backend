@@ -3,6 +3,7 @@ const {connection}=require('./Model/db');
 const { userRouter } = require("./router/user.router");
 const { notesRouter } = require("./router/notes.router");
 // const cors = require("cors");
+const swaggerUi = require("swagger-ui-express");
 
 const app =express()
 // app.use(cors)
