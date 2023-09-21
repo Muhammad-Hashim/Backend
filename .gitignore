@@ -12,3 +12,4 @@ config.js
 
 # Ignore macOS system files
 .DS_Store
+.env
